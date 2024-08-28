@@ -21,6 +21,16 @@ git clone https://github.com/Heckrexter/Discord-LLama-Cpp
 ```
 
 - Navigate into the repository
+```shell
+cd /path/to/Discord-LLama-Cpp
+```
+- Create a file in the include/ directory named token.h and write the following code in it and save
+```cpp
+// file to store bot token
+#include <iostream>
+
+const std::string stored_BOT_TOKEN = "DISCORD_BOT_TOKEN";
+```
 - Make a folder named build and navigate into it
 ```shell
 mkdir build
